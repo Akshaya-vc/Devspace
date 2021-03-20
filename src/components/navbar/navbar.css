@@ -1,0 +1,63 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,500;1,400&display=swap");
+.body{
+    font-family: "Poppins", sans-serif;
+}
+.nav{
+    display: flex;
+    position: relative;
+    flex-flow: row nowrap;
+    justify-content: space-between;
+    align-items: baseline;
+    margin-top: 0;
+    padding-top: 10px;
+    height: 60px;
+    background: rgb(159,233,223);
+    background: linear-gradient(90deg, rgba(159,233,223,1) 31%, rgba(25,132,195,1) 100%);
+}
+
+.brand{
+    padding:0;
+}
+.brandimg{
+    width: 100px;
+    padding: 0px 0px 0 20px;
+}
+.brandimg:hover{
+    cursor: pointer;
+}
+.navbuttons{
+    position: absolute;
+    top: 25%;
+    right: 0;
+    display: flex;
+    flex-flow: row wrap;
+    align-content: center;
+    justify-content: center;
+    margin-right: 50px;
+    text-transform: uppercase;
+    font-weight: 500;
+    letter-spacing: 1px;
+    padding: 0 15px;
+}
+
+.students, .analysis{
+    padding: 5px 10px 0 30px;
+
+}
+.navbuttons> div:hover{
+    cursor: pointer;
+    transform: scale(1.1);
+    
+}
+.students:hover {
+    transform: scale(1.1);
+  }
+.profileimg{
+    width: 40px;
+    height:40px;
+    border-radius: 50%;  
+    margin-left: 30px;
+}
+.profileimg:hover{
+    transform: scale(1.2);
+}

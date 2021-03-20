@@ -1,0 +1,117 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,500;1,400&display=swap");
+body{
+    font-family: "Poppins", sans-serif;
+    text-align: center;
+}
+
+
+.container{
+    margin: 30px 5%;
+    display: grid;
+    grid-template-columns: 25% 50% 25%;
+    grid-template-rows: auto auto auto;
+}
+.item{
+    background-color: #ffffff;
+    box-shadow: 0px 0px 9px 0px rgba(0,0,0,0.1);
+    margin: 5px;
+}
+.item3{
+    border: none;
+}
+/* meet button */
+.item1 a{
+    font-size: 100px;
+
+}
+.item1 a:hover{
+    cursor: pointer;
+    transform: scale(1.2);
+}
+.item1 a:visited, .item1 a:active{
+    text-decoration: none;
+    color: black;   
+}
+.offline{
+    background-color: #13A9D9;
+    border-radius: 25px;
+    padding:10px;
+    
+}
+.plus{
+    color:#13A9D9 ;
+}
+.online{
+    background-color: #f5361d;
+    border-radius: 25px;
+    padding:10px;
+    display: none;
+}
+.item3{
+    border: none;
+    grid-row-start: 1;
+    grid-row-end: 4;
+    grid-column-start: 3;
+    border:none;
+}
+.item4{
+    grid-column-start: 1;
+    grid-column-end: 3;
+    box-shadow: none;
+
+}
+.meet1{
+    margin-top: 40px;
+    margin-bottom: 0;
+    color: #32d6e2;
+}
+.item4 span{
+    color: #32d6e2;
+    border: 1px solid rgb(96, 151, 233);
+    padding: 10px 20px;
+    box-shadow: 0px 0px 9px 0px rgba(48, 210, 250, 0.767);
+    border-radius: 20px;
+    
+}
+.item3{
+    box-shadow: none;
+}
+.box{
+    background-color: #ffffff;
+    box-shadow: 0px 0px 9px 0px rgba(0,0,0,0.1);
+    height: 40%;
+}
+.emoji{
+    font-size: 60px;
+    padding-bottom: 30px;
+}
+.item5{
+    background-image: url("../landing/pie.png");
+    background-position: center;
+    background-size: cover;
+    height: 250px;
+}
+.box p{
+    font-size: 55px;
+}
+@media(max-width:550px){
+    .container{
+        display: flex;
+        flex-flow: column;
+    }
+}
+@media(max-width:550px){
+    .container{
+        display: flex;
+        flex-flow: column;
+    }
+}
+iframe{
+    background: #21313C;
+    border: none;
+    border-radius: 2px;
+    box-shadow: 0 2px 10px 0 rgba(70, 76, 79, .2);
+    width:430px;
+    height:290px; 
+}
+
